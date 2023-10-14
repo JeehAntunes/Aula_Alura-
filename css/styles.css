@@ -1,0 +1,156 @@
+:root {
+    --cor-0: #00030C;
+    --cor-1: #FFFFFF;
+    --cor-2: #C0C0C0;
+    --cor-3: #167BF7;
+    --cor-4: #EC2F46;
+    --cor-5: #F9F9F9;
+
+    --fonte-principal: 'Inter';
+}
+
+body{
+    background-color: var(--cor-0);
+}
+
+main{
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    color: var(--cor-1);
+}
+
+main .container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+main .principal {
+    background-image: url(../imagens/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+    
+}
+
+main .container__titulo {
+    font-weight: 700;
+    font-size: 28px;
+}
+
+main .container__botao{
+    background-color: var(--cor-3);
+    color: var(--cor-1);
+    padding: 1em;
+    border-radius: 8px;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+main .botao__secundario{
+    background-color: transparent;
+    border: 1px solid var(--cor-1);
+}
+
+main .container__aviso{
+    color: var(--cor-2);
+    font-size: 12px;
+}
+
+main .container__caixa{
+    margin: 0 6em;
+    max-width: 588px;
+    
+}
+
+main .container__imagem{
+    margin: 1em 0 2em 0;
+    
+}
+
+main .imagem__secundario{
+    max-width: 31.25em;
+    width: 80%;
+    padding: 2em;
+}
+
+main .titulo__secundario{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0.2em;
+}
+
+main .container.secundario{
+    align-items: center;
+    margin: 0 12em;
+}
+
+main .container__telas{
+    padding: 2em;
+}
+
+
+main .texto__info{
+    color: var(--cor-5);
+    margin-bottom: 1em;
+}
+
+main .botao__combo{
+    display: inline-block;
+}
+
+main .container__dispositivos{
+    text-align: center;
+    margin: 5em;
+}
+
+main .lista__dispositivos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+}
+
+main .titulo__dispositivos{
+    font-weight: 700;
+    font-size: 3em;
+    margin: 0 0 1em 0;
+}
+
+main .texto__dispositivo{
+    font-weight: 700;
+    font-size: 2em;
+}
+
+main .rodape{
+    text-align: center;
+    margin: 3em 0;
+}
+
+main .lista__rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+}
+
+main .logo__rodape{
+    margin: 8em 0 0 0;
+}
+
+main .lista__link{
+    margin: 2em 1em;
+}
+
+main .link{
+    color: var(--cor-1);
+    text-decoration: none;
+}
+
+main .texto__rodape{
+    font-size: 0.88em;
+    padding: 1.31em;
+    color: var(--cor-2);
+}
